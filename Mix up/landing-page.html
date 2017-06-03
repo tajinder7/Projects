@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Mix Up</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
+     <link href="css/fonts.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
+    <link href="css/media.css" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nunito:300,400,600,700,800" rel="stylesheet"> 
+  </head>
+  <body>  
+    <header class="inner-header">
+      <div class="logo-part">
+        <a href="index.html"><img src="images/logo.png" alt="logo"/></a>
+      </div>
+      <div class="right-nav-part">
+          <ul>
+            <li class="search"><input type="search" class="search-input"/><button class="search-btn"><i class="fa fa-search"></i></button> </li>
+            <li class="custom-toggle mob-hide"><input type="checkbox" name="check" id="check1"/><label for="check1"><span class="can-toggle__switch" data-checked="user" data-unchecked="Counsellor"></span></label></li>
+            <li class="user"><a href="#"  data-activates='dropdown1' class="dropdown-button waves-effect wave-light"><i class="fa fa-user"></i></a>
+              <ul id='dropdown1' class='my-dropdown-content dropdown-content'>
+                  <li class="active"><a href="#modal2">Setting</a></li>
+                  <li class="desk-hide"><a href="#!">Counsellor</a></li>
+                  <li class="desk-hide"><a href="#!">User</a></li>
+                  <li><a href="#!">Log Out</a></li>
+                </ul>
+            </li>
+          </ul>
+      </div>
+    </header>
+    <section class="chat-section">
+      <span class="btn pulse toggle-chat waves-effect wave-light" ><i class="fa fa-commenting-o" aria-hidden="true"></i></span>
+      <div class="user-list">
+        <span class="back-toggle waves-effect wave-light"><i class="material-icons">arrow_back</i></span>
+           <ul id="tabs-swipe-demo" class="tabs">
+              <li class="tab col s3"><a href="#test-swipe-1" class="active">All</a></li>
+              <li class="tab col s3"><a  href="#test-swipe-2">Recent</a></li>
+              <li class="tab col s3"><a href="#test-swipe-3">Bookmark</a></li>
+            </ul>
+            <div class="tab-content">
+              <div id="test-swipe-1" class="tab-content-part">
+                <div class="tab-search ">
+                  <input type="search"  class="tab-search-field" placeholder="Search here"/>
+                  <button class="tab-search-btn"><i class="fa fa-search"></i></button>
+
+                </div>
+                <ul class="user-list-part">
+                  <li class="active"><figure><img src="images/user-img.png" alt="user-img"/></figure><figcaption><h4>Emily Watson</h4><p>Photographer</p><span class="bookmark"><i class="fa fa-bookmark-o" aria-hidden="true"></i>
+</span></figcaption></li>
+
+ <li><figure><img src="images/user-img.png" alt="user-img"/></figure><figcaption><h4>Emily Watson</h4><p>Photographer</p><span class="bookmark"><i class="fa fa-bookmark-o" aria-hidden="true"></i>
+</span></figcaption></li>
+ <li><figure><img src="images/user-img.png" alt="user-img"/></figure><figcaption><h4>Emily Watson</h4><p>Photographer</p><span class="bookmark"><i class="fa fa-bookmark-o" aria-hidden="true"></i>
+</span></figcaption></li>
+ <li><figure><img src="images/user-img.png" alt="user-img"/></figure><figcaption><h4>Emily Watson</h4><p>Photographer</p><span class="bookmark"><i class="fa fa-bookmark-o" aria-hidden="true"></i>
+</span></figcaption></li>
+ <li><figure><img src="images/user-img.png" alt="user-img"/></figure><figcaption><h4>Emily Watson</h4><p>Photographer</p><span class="bookmark"><i class="fa fa-bookmark-o" aria-hidden="true"></i>
+</span></figcaption></li>
+ <li><figure><img src="images/user-img.png" alt="user-img"/></figure><figcaption><h4>Emily Watson</h4><p>Photographer</p><span class="bookmark"><i class="fa fa-bookmark-o" aria-hidden="true"></i>
+</span></figcaption></li>
+ <li><figure><img src="images/user-img.png" alt="user-img"/></figure><figcaption><h4>Emily Watson</h4><p>Photographer</p><span class="bookmark"><i class="fa fa-bookmark-o" aria-hidden="true"></i>
+</span></figcaption></li>
+ <li><figure><img src="images/user-img.png" alt="user-img"/></figure><figcaption><h4>Emily Watson</h4><p>Photographer</p><span class="bookmark"><i class="fa fa-bookmark-o" aria-hidden="true"></i>
+</span></figcaption></li>
+ <li><figure><img src="images/user-img.png" alt="user-img"/></figure><figcaption><h4>Emily Watson</h4><p>Photographer</p><span class="bookmark"><i class="fa fa-bookmark-o" aria-hidden="true"></i>
+</span></figcaption></li>
+ <li><figure><img src="images/user-img.png" alt="user-img"/></figure><figcaption><h4>Emily Watson</h4><p>Photographer</p><span class="bookmark"><i class="fa fa-bookmark-o" aria-hidden="true"></i>
+</span></figcaption></li>
+ <li><figure><img src="images/user-img.png" alt="user-img"/></figure><figcaption><h4>Emily Watson</h4><p>Photographer</p><span class="bookmark"><i class="fa fa-bookmark-o" aria-hidden="true"></i>
+</span></figcaption></li>
+ <li><figure><img src="images/user-img.png" alt="user-img"/></figure><figcaption><h4>Emily Watson</h4><p>Photographer</p><span class="bookmark"><i class="fa fa-bookmark-o" aria-hidden="true"></i>
+</span></figcaption></li>
+ <li><figure><img src="images/user-img.png" alt="user-img"/></figure><figcaption><h4>Emily Watson</h4><p>Photographer</p><span class="bookmark"><i class="fa fa-bookmark-o" aria-hidden="true"></i>
+</span></figcaption></li>
+ <li><figure><img src="images/user-img.png" alt="user-img"/></figure><figcaption><h4>Emily Watson1</h4><p>Photographer</p><span class="bookmark"><i class="fa fa-bookmark-o" aria-hidden="true"></i>
+</span></figcaption></li>
+
+                </ul>
+              </div>
+              <div id="test-swipe-2" class="tab-content-part">
+                    <div class="tab-search">
+                  <input type="search"  class="tab-search-field" placeholder="Search here"/>
+                  <button class="tab-search-btn"><i class="fa fa-search"></i></button>
+
+                </div>
+                <ul class="user-list-part">
+                  <li><figure><img src="images/user-img.png" alt="user-img"/></figure><figcaption><h4>Emily Watson</h4><p>Photographer</p><span class="bookmark"><i class="fa fa-bookmark-o" aria-hidden="true"></i>
+</span></figcaption></li>
+
+ <li><figure><img src="images/user-img.png" alt="user-img"/></figure><figcaption><h4>Emily Watson</h4><p>Photographer</p><span class="bookmark"><i class="fa fa-bookmark-o" aria-hidden="true"></i>
+</span></figcaption></li>
+ <li><figure><img src="images/user-img.png" alt="user-img"/></figure><figcaption><h4>Emily Watson</h4><p>Photographer</p><span class="bookmark"><i class="fa fa-bookmark-o" aria-hidden="true"></i>
+</span></figcaption></li>
+
+
+                </ul>
+              </div>
+              <div id="test-swipe-3" class="tab-content-part">
+                    <div class="tab-search">
+                  <input type="search"  class="tab-search-field" placeholder="Search here"/>
+                  <button class="tab-search-btn"><i class="fa fa-search"></i></button>
+
+                </div>
+                <ul class="user-list-part">
+                  <li><figure><img src="images/user-img.png" alt="user-img"/></figure><figcaption><h4>Emily Watson</h4><p>Photographer</p><span class="bookmark"><i class="fa fa-bookmark-o" aria-hidden="true"></i>
+</span></figcaption></li>
+
+
+
+
+                </ul>
+              </div>
+          </div>
+      </div>
+      <div class="chat-part">
+        <div class="main-chat-section">
+          <div class="chat-history">
+
+          </div>
+           <div class="chat-send">
+            <button class="btn  icons-btn"><i class="material-icons">tag_faces</i></button>
+            <textarea placeholder="Write here"></textarea>
+            <div class="icons-part">
+              <button class="btn  icons-btn file"><i class="material-icons">attach_file</i></button>
+               <button class="btn  icons-btn"><i class="material-icons">subdirectory_arrow_left</i></button>
+             </div>
+          </div>
+           <div class="inroduce-section hide">
+            <h3>Introduce yourself to your counsellor</h3>
+              <form>
+                <div class="form-group">
+                  <input type="text" class="custom-input" placeholder="Enter Name"/> 
+                  <label>Your Name</label>
+                </div>
+                 <div class="form-group">
+                  <input type="text" class="custom-input" placeholder="Enter Email"/> 
+                  <label>Your Email</label>
+                </div>
+                 <div class="form-group">
+                  <textarea  class="custom-input" placeholder="Enter Your Message"/> </textarea>
+                  <label>Why do I want to get in touch with counsellor?</label>
+                </div>
+                <div class="form-group">
+                  <button class="btn waves-effect wave-light sub-btn">Done! You are good to go <i class="material-icons">check</i></button> 
+                </div>
+              </form>
+           </div>
+               <div class="inroduce-section msg-section  hide">
+            <h3>Anna is trying to connect with you</h3>
+              <form>
+           
+                <div class="form-group">
+                  <button class="btn waves-effect wave-light sub-btn">Reply</button> 
+                  <button class="btn waves-effect wave-light sub-btn ">Report a spam</button> 
+                </div>
+              </form>
+              <h4 class="alert">Anna has been reported as spam.</h4>
+           </div>
+        </div>
+
+      </div>
+      <div class="user-info">
+          <div class="user-info-basic">
+            <figure class="user-pic"><img src="images/user.png" alt="user"/></figure>
+            <figcaption>
+              <h4>Emily Watson</h4>
+              <p class="professionals">Photographer</p>
+              <ul class="rating">
+                <li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
+                <li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li> 
+                <li><a href="#"><i class="fa fa-star-half-o" aria-hidden="true"></i></a></li> 
+                <li><a href="#"><i class="fa fa-star-o" aria-hidden="true"></i></a></li> 
+                <li><a href="#"><i class="fa fa-star-o" aria-hidden="true"></i></a></li>
+
+              </ul>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+              <div class="chips-part">
+                <div class="chip custom-chip">Photography<i class="material-icons close">close</i></div>
+                <div class="chip custom-chip">Cooking<i class="material-icons close">close</i></div>
+              </div>
+            </figcaption>
+          </div>
+          <div class="reviews-part">
+            <h4>Reviews</h4>
+              <div class="carousel carousel-slider custom-slider" data-indicators="true">
+                
+                <div class="carousel-item" href="#one!">
+                  <h5>John Carman<span class="time">04:30pm</span></h5>
+                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                   <ul class="rating">
+                      <li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
+                      <li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li> 
+                      <li><a href="#"><i class="fa fa-star-half-o" aria-hidden="true"></i></a></li> 
+                      <li><a href="#"><i class="fa fa-star-o" aria-hidden="true"></i></a></li> 
+                      <li><a href="#"><i class="fa fa-star-o" aria-hidden="true"></i></a></li>
+                  </ul>
+                </div>
+                <div class="carousel-item" href="#two!">
+                     <h5>John Carman<span class="time">04:30pm</span></h5>
+                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                   <ul class="rating">
+                      <li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
+                      <li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li> 
+                      <li><a href="#"><i class="fa fa-star-half-o" aria-hidden="true"></i></a></li> 
+                      <li><a href="#"><i class="fa fa-star-o" aria-hidden="true"></i></a></li> 
+                      <li><a href="#"><i class="fa fa-star-o" aria-hidden="true"></i></a></li>
+                  </ul>
+                </div>
+                <div class="carousel-item" href="#three!">
+                     <h5>John Carman<span class="time">04:30pm</span></h5>
+                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                   <ul class="rating">
+                      <li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
+                      <li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li> 
+                      <li><a href="#"><i class="fa fa-star-half-o" aria-hidden="true"></i></a></li> 
+                      <li><a href="#"><i class="fa fa-star-o" aria-hidden="true"></i></a></li> 
+                      <li><a href="#"><i class="fa fa-star-o" aria-hidden="true"></i></a></li>
+                  </ul>
+                </div>
+                
+              </div>
+          </div>
+      </div>
+    </section>
+    <footer class="mob-hide">
+      <p>&copy; Mix Up 2017. All rights are reserved.</p>
+      <ul class="socials-icons">
+        <li class="fb"><a href="#"><i class="fa fa-facebook"></i></a></li>
+        <li class="ply"><a href="#"><i class="fa fa-play"></i></a></li>
+        <li class="linkedin"><a href="#"><i class="fa fa-linkedin"></i></a></li>
+        <li class="google"><a href="#"><i class="fa fa-google-plus"></i></a></li>
+        <li class="twi"><a href="#"><i class="fa fa-twitter"></i></a></li>
+
+      </ul>
+    </footer>
+
+   
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js"></script>
+    <script src="js/custom.js"></script>
+
+
+  <div id="modal1" class="modal custom-modal">
+    <div class="modal-content">
+      <button class="close btn modal-close "><i class="material-icons">clear</i></button>
+      <div class="left-part">
+          <h2 class="title"> Let your users know something <br>about you!</h2>
+          <form class="custom-form">
+            <div class="browse-img">
+               <figure class="browse-img-content img-insert">
+                 <img src="images/my-user.png" alt="my-user" class="upload-pic"/>
+                <img src="images/browse.png" alt="browse" class="default-pic  "/>
+                <span class="my-browse"> <input type="file"/></span>
+
+               </figure>
+            </div>
+            <div class="row">
+              <div class="col s12 l6 m6">
+                <div class="form-group">
+                  <input type="text" placeholder="Enter Name" class="custom-input"/>
+                  <label>Your Name</label>
+                </div>
+              </div>
+              <div class="col s12 l6 m6">
+                <div class="form-group">
+                  <input type="email" placeholder="Enter Email" class="custom-input"/>
+                  <label>Your Email</label>
+                </div>
+              </div>
+              <div class="col s12 l6 m6">
+                <div class="form-group">
+                  <input type="text" placeholder="Tell us about your expertise" class="custom-input"/>
+                  <label>What is your area of interest?</label>
+                </div>
+              </div>
+              <div class="col s12 l6 m6">
+                <div class="form-group">
+                  <input type="text" placeholder="Tell us about your skills" class="custom-input skils-input"/>
+                  <button class="cust-add-btn  waves-effect wave-light"><i class="material-icons">add</i></button>
+                  <label>Add tags of your skills</label>
+                  <div class="chips-part">
+                     <div class="chip custom-chip">Photography<i class="material-icons close">close</i></div>
+                     <div class="chip custom-chip">Cooking<i class="material-icons close">close</i></div>
+                  </div>
+                </div>
+              </div>
+              <div class="col s12 l12 m12">
+                <div class="form-group center">
+                  <button class="btn waves-effect wave-light sub-btn">Done! You are good to go <i class="material-icons">check</i></button> 
+                </div>
+              </div>
+            </div>
+          </form>
+      </div>
+      <div class="right-part" ></div>
+    </div>
+  </div>
+    <div id="modal2" class="modal custom-modal setting-modal">
+    <div class="modal-content">
+      <button class="close btn modal-close "><i class="material-icons">clear</i></button>
+      <div class="left-part">
+          <h2 class="title"> Settings <a href="#" class="btn waves-effect wave-light pass-btn">Change Password</a></h2>
+          <form class="custom-form">
+            <div class="browse-img">
+               <figure class="browse-img-content img-insert">
+                 <img src="images/my-user.png" alt="my-user" class="upload-pic"/>
+                <img src="images/browse.png" alt="browse" class="default-pic  "/>
+                <span class="my-browse"> <input type="file"/></span>
+
+               </figure>
+            </div>
+            <div class="edit-section">
+          
+                <div class="form-group">
+                  <input type="text" placeholder="Enter Name" class="custom-input new-field" value="Alina Jonathan" disabled=""/>
+                 <button class="edit-btn btn waves-effect waves-light"><i class="material-icons">mode_edit</i></button>
+                </div>
+          
+                <div class="form-group">
+                  <input type="email" placeholder="Enter Email" class="custom-input new-field" value="tanu.20777@lpu.co.in" disabled=""/>
+                   <button class="edit-btn btn waves-effect waves-light"><i class="material-icons">mode_edit</i></button>
+                </div>
+            
+                <div class="form-group">  
+                  <input type="text" placeholder="Tell us about your expertise" class="custom-input new-field" value="UI Designer" disabled=""/>
+                   <button class="edit-btn btn waves-effect waves-light"><i class="material-icons">mode_edit</i></button>
+                </div>
+              
+                <div class="form-group">
+                  <div class="skil-box hide">
+                   <input type="text" placeholder="Tell us about your skills" class="custom-input skils-input"/>
+                    <button class="cust-add-btn  waves-effect wave-light"><i class="material-icons">add</i></button>
+                  </div>
+                  <div class="chips-part">
+                     <div class="chip custom-chip">Photography<i class="material-icons close">close</i></div>
+                     <div class="chip custom-chip">Cooking<i class="material-icons close">close</i></div>
+                  </div>
+                    <button class="edit-btn btn waves-effect waves-light"><i class="material-icons">mode_edit</i></button>
+                </div>
+            
+               
+              </div>
+              <div class="another-content">
+                <div class="form-group">
+                  <label>Add Description</label>
+                 <textarea class="custom-input"></textarea>
+                </div>
+                 <div class="form-group center">
+                  <button class="btn waves-effect wave-light sub-btn">Save</button> 
+                </div>
+          </div>
+            
+
+          </form>
+      </div>
+      <div class="right-part" ></div>
+    </div>
+  </div>
+  </body>
+</html>

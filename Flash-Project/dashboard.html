@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>Flash Project</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
+    <link href="css/custom.css" rel="stylesheet">
+    <link href="css/media.css" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet"> 
+
+  </head>
+  <body>
+    <header class="header inner-header">
+    <div class="container">
+      <div class="logo-part">
+        <a href="index.html"><img src="img/logo.png" alt="logo"/></a>
+      </div>
+      
+        <ul class="dasboard-link">    
+           <li class="user"><a href="#" ><i class="fa fa-user" aria-hidden="true"></i></a></li> 
+        </ul>
+      
+    </div>
+  </header>
+  <section class="title-head-section">
+     <div class="container">
+      <div class="title-head">
+         <h1>Your Projects</h1>
+          <a class="btn new-btn waves-effect" href="#modal3" title="New Project"><i class="fa fa-plus" aria-hidden="true"></i> New Project</a>
+      </div>
+     </div>
+  </section>
+  <section class="dashboard-section">
+    <div class="dashboard-section-head">
+        <div class="container">
+            <p>Please confirm your email address: neha@outgrow.co. Check your inbox.Resend email.</p>
+        </div>
+    </div>
+     <div class="dashboard-section-body">
+        <div class="container">
+            <div class="projects ">
+               <div class="row">
+                  <div class="col s6 m4 l3">
+                     <div class="project-blocks">
+                      <div class="project-content">
+                        <a href="project-dashboard.html" class="pro-dashboard"></a>
+                          <figure><img src="img/project-logo.png" alt="project-logo"/></figure>
+                          <figcaption><a href="sda.com">sda.com</a></figcaption>
+                      </div>
+                  </div>
+                  </div>
+                  <div class="col s6 m4 l3">
+                     <div class="project-blocks">
+                      <div class="project-content">
+                         <a href="project-dashboard.html" class="pro-dashboard"></a>
+                          <figure><img src="img/project-logo1.png" alt="project-logo1"/></figure>
+                          <figcaption><a href="sda.com">sda.com</a></figcaption>
+                      </div>
+                  </div>
+                  </div>
+
+               </div>
+            </div>
+            <a class="btn new-btn waves-effect hide"  href="#modal3" title="Start a new project" id="add-pro"><i class="fa fa-plus" aria-hidden="true"></i> Start a new project</a>
+        </div>
+    </div>
+     
+   </section>
+     <footer class="footer">
+    <div class="container">
+        <div class="left-fot">
+        <p>&copy; Visa Details 2017. All rights are reserved.</p>
+        <ul> 
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About Us </a></li>
+          <li><a href="#">Site Map </a></li>
+          <li><a href="#">Terms & Conditions</a></li>
+          <li><a href="#">Privacy Policy </a></li>
+          <li><a href="#">Site Map </a></li>
+           <li><a href="#">Contact Us </a></li>
+        </ul>
+      </div>
+      <div class="right-fot">
+        <ul class="socails-list"> 
+          <li><a href="#" class="fb"><i class="fa fa-facebook"></i></a></li>
+          <li><a href="#" class="play"><i class="fa fa-play"></i></a></li>
+          <li><a href="#" class="lkd"><i class="fa fa-linkedin"></i></a></li>
+          <li><a href="#" class="gp"><i class="fa fa-google-plus"></i></a></li>
+          <li><a href="#" class="twi"><i class="fa fa-twitter"></i></a></li>
+        </ul>
+      </div>
+      </div>
+      </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js"></script>
+    <script src="js/custom.js"> </script>
+
+ <div id="modal3" class="modal custom-modal add-project">
+     <div class="modal-head">
+             <h4>Add new Project</h4>
+             <a href="javascript:void(0)" class="close-btn1" data-dismis="modal"> <i class="fa fa-times" aria-hidden="true"></i></a>
+     </div>
+    <div class="modal-content">
+        <form>
+            <div class="row">
+               <div class="input-field col s12">
+                 <label >Add your website URL</label>
+                 <input id="url" type="text" class="validate my-input">
+                <p class="msg-txt">23 pages found in your Sitemap</p>
+               </div>
+               
+              <div class="input-field col s12 text-center">
+                 <input id="go-btn" type="submit" class=" signup-btn waves-effect " value="Let’s Go"/>
+                  
+              </div>
+              
+           </div>
+        </form>
+  
+    </div>
+   
+  </div>
+  <script type="text/javascript">
+   
+         $( document ).ready(function() {
+      $('.modal').modal();
+      $('#modal3').on('click', function() {
+        
+      });
+       
+        $('.close-btn1').on('click', function() {
+            $('.modal').modal('close');
+        });
+        $('#go-btn').click(function(){
+          $('#add-pro').addClass('hide');
+          $('.projects').removeClass('hide');
+        });
+    });
+     
+  
+  </script>
+  </body>
+</html>
